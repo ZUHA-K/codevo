@@ -1,6 +1,6 @@
   =>  Template Name    : Codevo
 
-  =>  Template Link    : https://htmlcodex.com/Coding-Evoices-website-template
+  =>  Template Link    : https://htmlcodex.com/Coding-Services-website-template
 
   =>  Template License : https://htmlcodex.com/license (or read the LICENSE.txt file)
 

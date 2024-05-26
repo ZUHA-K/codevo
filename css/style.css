@@ -176,15 +176,15 @@ h4, h5, h6, .h4, .h5, .h6 {
 /*** Events End ***/
 
 
-/*** Evoice start ***/
-.Evoice .Evoice-item {
+/*** Service start ***/
+.Service .Service-item {
     position: relative;
     height: 100%;
     border-radius: 8px;
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
 }
 
-.Evoice-content::after {
+.Service-content::after {
     position: absolute;
     content: "";
     width: 100%;
@@ -197,38 +197,38 @@ h4, h5, h6, .h4, .h5, .h6 {
     transition: 1s;
 }
 
-.Evoice-item:hover .Evoice-content::after {
+.Service-item:hover .Service-content::after {
     height: 100%;
     opacity: 1;
 }
 
-.Evoice-item .Evoice-content-icon {
+.Service-item .Service-content-icon {
     position: relative;
     z-index: 2;
 }
 
-.Evoice-item .Evoice-content-icon i,
-.Evoice-item .Evoice-content-icon p {
+.Service-item .Service-content-icon i,
+.Service-item .Service-content-icon p {
     transition: 1s;
 }
 
-.Evoice-item:hover .Evoice-content-icon i {
+.Service-item:hover .Service-content-icon i {
     color: var(--bs-dark) !important;
 }
 
-.Evoice-item:hover .Evoice-content-icon p {
+.Service-item:hover .Service-content-icon p {
     color: var(--bs-white);
 }
 
-.Evoice-item:hover .Evoice-content-icon a.btn-primary {
+.Service-item:hover .Service-content-icon a.btn-primary {
     background: var(--bs-white);
     color: var(--bs-dark);
 }
 
-.Evoice-item .Evoice-content-icon a.btn-primary {
+.Service-item .Service-content-icon a.btn-primary {
     transition: 1s !important;
 }
-/*** Evoices End ***/
+/*** Services End ***/
 
 
 /*** Menu Start ***/
