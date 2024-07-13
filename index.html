@@ -29,7 +29,14 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
 
-    <body>
+    <body class="bg-light"
+     style="background-color: #000000 !important;
+    background-image: url('img/bg.gif');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: screen;" >
 
         <!-- Spinner Start -->
         <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
@@ -42,69 +49,44 @@
         <div class="container-fluid nav-bar">
             <div class="container">
                 <nav class="navbar navbar-light navbar-expand-lg py-4">
-                    <a href="index.html" class="navbar-brand">
-                        <h1 class="text-primary fw-bold mb-0">Cod<span class="text-dark">Evo</span> </h1>
+                    <a href="index.html" class="navbar-brand nav-link">
+                        <img src="img/logo.png" alt="Logo">                    
+                        <!-- <h1 class="text-primary fw-bold mb-0">Cod<span class="text-dark">Evo</span> </h1> -->
                     </a>
                     <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span class="fa fa-bars text-primary"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <div class="navbar-nav mx-auto">
-                            <a href="index.html" class="nav-item nav-link active">Home</a>
-                            <a href="about.html" class="nav-item nav-link">About</a>
-                            <a href="Service.html" class="nav-item nav-link">Services</a>
-                            <a href="event.html" class="nav-item nav-link">Projects</a>
-                            <a href="menu.html" class="nav-item nav-link">Menu</a>
-                            <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                                <div class="dropdown-menu bg-light">
-                                    <a href="book.html" class="dropdown-item">Booking</a>
-                                    <a href="blog.html" class="dropdown-item">Our Blog</a>
-                                    <a href="team.html" class="dropdown-item">Our Team</a>
-                                    <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                                    <a href="404.html" class="dropdown-item">404 Page</a>
-                                </div>
-                            </div>
-                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                            <a href="index.html" class="nav-item nav-link active" style="color: #f70000;">Home</a>
+                            <a href="about.html" class="nav-item nav-link" style="color: white;" >About</a>
+                            <a href="Service.html" class="nav-item nav-link" style="color: white;">Services</a>
+                            <a href="event.html" class="nav-item nav-link" style="color: white;">Projects</a>
+                            <a href="contact.html" class="nav-item nav-link" style="color: white;">Contact</a>
                         </div>
-                        <button class="btn-search btn btn-primary btn-md-square me-4 rounded-circle d-none d-lg-inline-flex" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
-                        <a href="" class="btn btn-primary py-2 px-4 d-none d-xl-inline-block rounded-pill">Book Now</a>
+                        <a href="contact.html" class="btn btn-primary py-2 px-4 d-none d-xl-inline-block rounded-pill">Book Now</a>
                     </div>
                 </nav>
             </div>
         </div>
         <!-- Navbar End -->
-
-
-        <!-- Modal Search Start -->
-        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content rounded-0">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body d-flex align-items-center">
-                        <div class="input-group w-75 mx-auto d-flex">
-                            <input type="search" class="form-control bg-transparent p-3" placeholder="keywords" aria-describedby="search-icon-1">
-                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Modal Search End -->
-
-
+        
+        
         <!-- Hero Start -->
-        <div class="container-fluid bg-light py-6 my-6 mt-0">
+        <div class="container-fluid bg-light py-6 my-6 mt-0" style="background-color: #000000 !important;
+        background-image: url('img/bg.gif');
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-blend-mode: screen;">
             <div class="container">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-7 col-md-12">
                         <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-4 animated bounceInDown">Welcome to Codevo</small>
                         <h1 class="display-1 mb-4 animated bounceInDown">Shaping the <span class="text-primary">Future</span> with Code and Creativity </h1>
-                        <a href="" class="btn btn-primary border-0 rounded-pill py-3 px-4 px-md-5 me-4 animated bounceInLeft">Get Services Now</a>
-                        <a href="" class="btn btn-primary border-0 rounded-pill py-3 px-4 px-md-5 animated bounceInLeft">Know More</a>
+                        <a href="contact.html" class="btn btn-primary border-0 rounded-pill py-3 px-4 px-md-5 me-4 animated bounceInLeft">Get Services Now</a>
+                        <a href="Service.html" class="btn btn-primary border-0 rounded-pill py-3 px-4 px-md-5 animated bounceInLeft">Know More</a>
                     </div>
                     <div class="col-lg-5 col-md-12">
                         <img src="img/hero.png" class="img-fluid rounded animated zoomIn" alt="">
@@ -115,20 +97,20 @@
         <!-- Hero End -->
 
 
-        <!-- About Satrt -->
+        <!-- About Start -->
         <div class="container-fluid py-6">
             <div class="container">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-5 wow bounceInUp" data-wow-delay="0.1s">
-                        <img src="img/about.jpg" class="img-fluid rounded" alt="">
+                        <img src="img/about.png" class="img-fluid rounded" alt="">
                     </div>
                     <div class="col-lg-7 wow bounceInUp" data-wow-delay="0.3s">
                         <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">About Us</small>
-                        <h1 class="display-5 mb-4">Trusted By 200 + satisfied clients</h1>
-                        <p class="mb-4">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore eit esdioilore magna aliqua. Ut enim ad minim veniam, 
-                            quis nostrud exercitation ullaemco laboeeiris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                            dolor iesdein reprehendeerit in voluptate velit esse cillum dolore.</p>
-                        <div class="row g-4 text-dark mb-5">
+                        <!-- <h1 class="display-5 mb-4">Trusted By 200 + satisfied clients</h1> -->
+                        <p class="mb-4">Welcome to Codevo, where innovation meets expertise. At Codevo, we believe in harnessing
+                             the power of code to drive progress and create solutions that make a difference. Our name, derived from "code" and "evolution,"
+                             signifies our commitment to continuous improvement and adaptation in the ever-changing world of technology.</p>
+                        <div class="row g-4 mb-5">
                             <div class="col-sm-6">
                                 <i class="fas fa-share text-primary me-2"></i>Time Bound Delivery
                             </div>
@@ -142,7 +124,7 @@
                                 <i class="fas fa-share text-primary me-2"></i>100% Quality work
                             </div>
                         </div>
-                        <a href="" class="btn btn-primary py-3 px-5 rounded-pill">About Us<i class="fas fa-arrow-right ps-2"></i></a>
+                        <a href="about.html" class="btn btn-primary py-3 px-5 rounded-pill">About Us<i class="fas fa-arrow-right ps-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -215,7 +197,10 @@
             <div class="container">
                 <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
                     <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Our Services</small>
-                    <h1 class="display-5 mb-5">What We Offer</h1>
+                    <h1 class="display-5 mb-5">Who We Are</h1>
+                    <p class="mb-4">Codevo is a premier software company that stands at the forefront of the digital revolution.<br> 
+                        With a dynamic team of experts, we specialize in a wide range of services including:</p>
+
                 </div>
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.1s">
@@ -224,8 +209,8 @@
                                 <div class="Service-content-icon text-center">
                                     <i class="fas fa-shield-alt fa-7x text-primary mb-4"></i>
                                     <h4 class="mb-3">Cyber Security Services</h4>
-                                    <p class="mb-4">Contrary to popular belief, ipsum is not simply random.</p>
-                                    <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Read More</a>
+                                    <p class="mb-4">Protecting your digital assets with cutting-edge security solutions.</p>
+                                    <!-- <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Read More</a> -->
                                 </div>
                             </div>
                         </div>
@@ -236,8 +221,8 @@
                                 <div class="Service-content-icon text-center">
                                     <i class="fas fa-mobile-alt fa-7x text-primary mb-4"></i>
                                     <h4 class="mb-3">App Development</h4>
-                                    <p class="mb-4">Contrary to popular belief, ipsum is not simply random.</p>
-                                    <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Read More</a>
+                                    <p class="mb-4">Creating innovative mobile applications that engage and inspire.</p>
+                                    <!-- <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Read More</a> -->
                                 </div>
                             </div>
                         </div>
@@ -248,8 +233,8 @@
                                 <div class="Service-content-icon text-center">
                                     <i class="fas fa-code fa-7x text-primary mb-4"></i>
                                     <h4 class="mb-3">Web Development</h4>
-                                    <p class="mb-4">Contrary to popular belief, ipsum is not simply random.</p>
-                                    <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Read More</a>
+                                    <p class="mb-4">Crafting stunning, user-friendly websites that elevate your online presence.</p>
+                                    <!-- <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Read More</a> -->
                                 </div>
                             </div>
                         </div>
@@ -261,8 +246,8 @@
                                 <div class="Service-content-icon text-center">
                                     <i class="fas fa-chart-bar fa-7x text-primary mb-4"></i>
                                     <h4 class="mb-3">Data Science</h4>
-                                    <p class="mb-4">Contrary to popular belief, ipsum is not simply random.</p>
-                                    <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Read More</a>
+                                    <p class="mb-4">Transforming data into actionable insights for smarter decision-making.</p>
+                                    <!-- <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Read More</a> -->
                                 </div>
                             </div>
                         </div>
@@ -273,8 +258,8 @@
                                 <div class="Service-content-icon text-center">
                                     <i class="fas fa-search-dollar fa-7x text-primary mb-4"></i>
                                     <h4 class="mb-3">Search Engine Optimization</h4>
-                                    <p class="mb-4">Contrary to popular belief, ipsum is not simply random.</p>
-                                    <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Read More</a>
+                                    <p class="mb-4">Optimizing your online visibility to drive traffic and boost your search rankings.</p>
+                                    <!-- <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Read More</a> -->
                                 </div>
                             </div>
                         </div>
@@ -285,8 +270,8 @@
                                 <div class="Service-content-icon text-center">
                                     <i class="fas fa-cloud fa-7x text-primary mb-4"></i>
                                     <h4 class="mb-3">Cloud Platform Engineering</h4>
-                                    <p class="mb-4">Contrary to popular belief, ipsum is not simply random.</p>
-                                    <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Read More</a>
+                                    <p class="mb-4">Designing scalable, efficient cloud solutions for your business needs.</p>
+                                    <!-- <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Read More</a> -->
                                 </div>
                             </div>
                         </div>
@@ -296,6 +281,32 @@
             </div>
         </div>
         <!-- Service End -->
+
+
+         <!-- Mission Vision Satrt -->
+         <div class="container-fluid py-6">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    
+                    <div class="col-lg-7 wow bounceInUp" data-wow-delay="0.1s">
+                        <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Mission and Approach</small>
+                        <h1 class="display-5 mb-4">Our Mission</h1>
+                        <p class="mb-4">Our mission is simple: to shape the future through innovative technology and creative solutions. We strive to deliver 
+                            exceptional value to our clients by combining our technical prowess with a deep understanding of their unique needs.</p>
+                        <h1 class="display-5 mb-4">Our Approach</h1>
+                        <p class="mb-4">At Codevo, we pride ourselves on our collaborative approach. We work closely with our clients to understand
+                             their goals and challenges, ensuring that every project we undertake is tailored to their specific requirements. 
+                            Our team of seasoned professionals is dedicated to delivering results that exceed expectations, every time.</p>
+                            
+                        
+                    </div>
+                    <div class="col-lg-5 wow bounceInUp" data-wow-delay="0.3s">
+                        <img src="img/mission.png" class="img-fluid rounded" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Mission Vision End -->
 
 
         <!-- Projects Start -->
@@ -525,549 +536,6 @@
         <!-- Projects End -->
 
 
-        <!-- Menu Start -->
-        <div class="container-fluid menu bg-light py-6 my-6">
-            <div class="container">
-                <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
-                    <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Our Services</small>
-                    <h1 class="display-5 mb-5">Best Services you could avail</h1>
-                </div>
-                <div class="tab-class text-center">
-                    <ul class="nav nav-pills d-inline-flex justify-content-center mb-5 wow bounceInUp" data-wow-delay="0.1s">
-                        <li class="nav-item p-2">
-                            <a class="d-flex py-2 mx-2 border border-primary bg-white rounded-pill active" data-bs-toggle="pill" href="#tab-6">
-                                <span class="text-dark" style="width: 150px;">Service 1</span>
-                            </a>
-                        </li>
-                        <li class="nav-item p-2">
-                            <a class="d-flex py-2 mx-2 border border-primary bg-white rounded-pill" data-bs-toggle="pill" href="#tab-7">
-                                <span class="text-dark" style="width: 150px;">Service 2</span>
-                            </a>
-                        </li>
-                        <li class="nav-item p-2">
-                            <a class="d-flex py-2 mx-2 border border-primary bg-white rounded-pill" data-bs-toggle="pill" href="#tab-8">
-                                <span class="text-dark" style="width: 150px;">Service 3</span>
-                            </a>
-                        </li>
-                        <li class="nav-item p-2">
-                            <a class="d-flex py-2 mx-2 border border-primary bg-white rounded-pill" data-bs-toggle="pill" href="#tab-9">
-                                <span class="text-dark" style="width: 150px;">Service 4</span>
-                            </a>
-                        </li>
-                        <li class="nav-item p-2">
-                            <a class="d-flex py-2 mx-2 border border-primary bg-white rounded-pill" data-bs-toggle="pill" href="#tab-10">
-                                <span class="text-dark" style="width: 150px;">Service 5</span>
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="tab-content">
-                        <div id="tab-6" class="tab-pane fade show p-0 active">
-                            <div class="row g-4">
-                                <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.1s">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-01.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.2s">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-02.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.3s">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-03.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.4s">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-04.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.5s">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-05.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.6s">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-06.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.7s">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-07.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.8s">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-08.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="tab-7" class="tab-pane fade show p-0">
-                            <div class="row g-4">
-                                <div class="col-lg-6">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-01.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-03.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-05.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-07.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-08.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-03.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-02.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-01.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="tab-8" class="tab-pane fade show p-0">
-                            <div class="row g-4">
-                                <div class="col-lg-6">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-01.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-02.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-03.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-04.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-05.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-06.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-07.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-08.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="tab-9" class="tab-pane fade show p-0">
-                            <div class="row g-4">
-                                <div class="col-lg-6">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-06.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-07.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-09.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-02.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-03.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-05.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-07.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-09.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="tab-10" class="tab-pane fade show p-0">
-                            <div class="row g-4">
-                                <div class="col-lg-6">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-06.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-07.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-09.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-02.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-03.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-05.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-07.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-09.jpg" alt="">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Service</h4>
-                                                <h4 class="text-primary">$90</h4>
-                                            </div>
-                                            <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Menu End -->
-
-
         <!-- Book Us Start -->
         <div class="container-fluid contact py-6 wow bounceInUp" data-wow-delay="0.1s">
             <div class="container">
@@ -1081,44 +549,62 @@
                                 <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Book Us</small>
                                 <h1 class="display-5 mb-5">Where you want Our Services</h1>
                             </div>
-                            <div class="row g-4 form">
-                                <div class="col-lg-4 col-md-6">
-                                    <select class="form-select border-primary p-2" aria-label="Default select example">
-                                        <option selected>Select Country</option>
-                                        <option value="1">USA</option>
-                                        <option value="2">UK</option>
-                                        <option value="3">Pakistan</option>
-                                    </select>
-                                </div>
-                                <div class="col-lg-4 col-md-6">
-                                    <select class="form-select border-primary p-2" aria-label="Default select example">
-                                        <option selected>Select City</option>
-                                        <option value="1">Depend On Country</option>
-                                        <option value="2">UK</option>
-                                        <option value="3">Pakistan</option>
-                                    </select>
-                                </div>
-                                <div class="col-lg-4 col-md-6">
-                                    <select class="form-select border-primary p-2" aria-label="Default select example">
-                                        <option selected>Select Service</option>
-                                        <option value="1">Cyber Security</option>
-                                        <option value="2">App Development</option>
-                                        <option value="3">Data Science</option>
-                                    </select>
-                                </div>
-                                <div class="col-lg-4 col-md-6">
-                                    <input type="mobile" class="form-control border-primary p-2" placeholder="Your Contact No.">
-                                </div>
-                                <div class="col-lg-4 col-md-6">
-                                    <input type="date" class="form-control border-primary p-2" placeholder="Select Date">
-                                </div>
-                                <div class="col-lg-4 col-md-6">
-                                    <input type="email" class="form-control border-primary p-2" placeholder="Enter Your Email">
-                                </div>
-                                <div class="col-12 text-center">
-                                    <button type="submit" class="btn btn-primary px-5 py-3 rounded-pill">Submit Now</button>
-                                </div>
+                            <div class="row g-4 justify-content-center form container text-center contact-form">
+                                <form  >
+                                    <!-- <form method="post" action="send_mail.php"> -->
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="text" name="name" class="form-control" placeholder="Your Name *" required />
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="email" name="email" class="form-control" placeholder="Your Email *" required />
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" name="phone" class="form-control" placeholder="Your Phone Number *" required />
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" name="country" class="form-control" placeholder="Your Country *" required />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <textarea name="message" class="form-control" placeholder="Your Message *" style="height: 150px;" required></textarea>
+                                            </div>
+                                            <div class="col-12 text-center form-group">
+                                                <button type="submit" name="btnSubmit" class="btn btn-primary px-5 py-3 rounded-pill">Submit Now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
+                            <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+                            <script>
+                                $(document).ready(function () {
+                                    $('#contactForm').on('submit', function (e) {
+                                        e.preventDefault(); // Prevent the default form submission
+                        
+                                        // Collect form data
+                                        var formData = $(this).serialize();
+                        
+                                        // Send the form data using AJAX
+                                        $.ajax({
+                                            type: 'POST',
+                                            url: 'send_mail.php',
+                                            data: formData,
+                                            success: function (response) {
+                                                alert('Message sent successfully!');
+                                                $('#contactForm')[0].reset(); // Reset the form after successful submission
+                                            },
+                                            error: function () {
+                                                alert('Failed to send message.');
+                                            }
+                                        });
+                                    });
+                                });
+                            </script>
+                    
+                                
                         </div>
                     </div>
                     <div class="col-1">
@@ -1131,7 +617,7 @@
 
         
         <!-- Team Start -->
-        <div class="container-fluid team py-6">
+        <!-- <div class="container-fluid team py-6">
             <div class="container">
                 <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
                     <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Our Team</small>
@@ -1200,7 +686,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Team End -->
 
 
@@ -1218,10 +704,10 @@
                             <div class="position-absolute" style="top: 15px; right: 20px;">
                                 <i class="fa fa-quote-right fa-2x"></i>
                             </div>
-                            <div class="ps-3 my-auto">
+                            <!-- <div class="ps-3 my-auto">
                                 <h4 class="mb-0">Person Name</h4>
                                 <p class="m-0">Profession</p>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="testimonial-content">
                             <div class="d-flex">
@@ -1231,7 +717,9 @@
                                 <i class="fas fa-star text-primary"></i>
                                 <i class="fas fa-star text-primary"></i>
                             </div>
-                            <p class="fs-5 m-0 pt-3">Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+                            <p class="fs-5 m-0 pt-3">Working with Codevo has been a game-changer for our business. Their team is knowledgeable, 
+                                responsive, and truly understands our needs. 
+                                The web development and SEO services they provided have significantly boosted our online presence and engagement</p>
                         </div>
                     </div>
                     <div class="testimonial-item rounded bg-light">
@@ -1240,10 +728,10 @@
                             <div class="position-absolute" style="top: 15px; right: 20px;">
                                 <i class="fa fa-quote-right fa-2x"></i>
                             </div>
-                            <div class="ps-3 my-auto">
+                            <!-- <div class="ps-3 my-auto">
                                 <h4 class="mb-0">Person Name</h4>
                                 <p class="m-0">Profession</p>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="testimonial-content">
                             <div class="d-flex">
@@ -1253,7 +741,9 @@
                                 <i class="fas fa-star text-primary"></i>
                                 <i class="fas fa-star text-primary"></i>
                             </div>
-                            <p class="fs-5 m-0 pt-3">Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+                            <p class="fs-5 m-0 pt-3">Codevo's app development team delivered a high-quality, 
+                                user-friendly app that has been instrumental in our growth. 
+                                Their innovative approach and attention to detail set them apart. We highly recommend their services.</p>
                         </div>
                     </div>
                     <div class="testimonial-item rounded bg-light">
@@ -1262,10 +752,10 @@
                             <div class="position-absolute" style="top: 15px; right: 20px;">
                                 <i class="fa fa-quote-right fa-2x"></i>
                             </div>
-                            <div class="ps-3 my-auto">
+                            <!-- <div class="ps-3 my-auto">
                                 <h4 class="mb-0">Person Name</h4>
                                 <p class="m-0">Profession</p>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="testimonial-content">
                             <div class="d-flex">
@@ -1275,7 +765,8 @@
                                 <i class="fas fa-star text-primary"></i>
                                 <i class="fas fa-star text-primary"></i>
                             </div>
-                            <p class="fs-5 m-0 pt-3">Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+                            <p class="fs-5 m-0 pt-3">The cyber security solutions provided by Codevo have given us peace of mind. 
+                                Their experts are always one step ahead, ensuring our data is protected at all times. We couldn't be happier with their service.</p>
                         </div>
                     </div>
                     <div class="testimonial-item rounded bg-light">
@@ -1284,10 +775,10 @@
                             <div class="position-absolute" style="top: 15px; right: 20px;">
                                 <i class="fa fa-quote-right fa-2x"></i>
                             </div>
-                            <div class="ps-3 my-auto">
+                            <!-- <div class="ps-3 my-auto">
                                 <h4 class="mb-0">Person Name</h4>
                                 <p class="m-0">Profession</p>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="testimonial-content">
                             <div class="d-flex">
@@ -1297,7 +788,8 @@
                                 <i class="fas fa-star text-primary"></i>
                                 <i class="fas fa-star text-primary"></i>
                             </div>
-                            <p class="fs-5 m-0 pt-3">Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+                            <p class="fs-5 m-0 pt-3">Codevo's data science team helped us turn raw data into valuable insights. Their expertise in data 
+                                analysis and visualization has been crucial in driving our strategic decisions. They are a pleasure to work with.</p>
                         </div>
                     </div>
                 </div>
@@ -1308,10 +800,10 @@
                             <div class="position-absolute" style="top: 15px; right: 20px;">
                                 <i class="fa fa-quote-right fa-2x"></i>
                             </div>
-                            <div class="ps-3 my-auto">
+                            <!-- <div class="ps-3 my-auto">
                                 <h4 class="mb-0">Person Name</h4>
                                 <p class="m-0">Profession</p>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="testimonial-content">
                             <div class="d-flex">
@@ -1321,7 +813,9 @@
                                 <i class="fas fa-star text-primary"></i>
                                 <i class="fas fa-star text-primary"></i>
                             </div>
-                            <p class="fs-5 m-0 pt-3">Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+                            <p class="fs-5 m-0 pt-3">We partnered with Codevo for our cloud migration project,
+                                 and they exceeded our expectations. Their cloud engineers designed
+                                 and implemented a scalable solution that perfectly fits our needs. Their support throughout the process was exceptional.</p>
                         </div>
                     </div>
                     <div class="testimonial-item rounded bg-light">
@@ -1330,10 +824,10 @@
                             <div class="position-absolute" style="top: 15px; right: 20px;">
                                 <i class="fa fa-quote-right fa-2x"></i>
                             </div>
-                            <div class="ps-3 my-auto">
+                            <!-- <div class="ps-3 my-auto">
                                 <h4 class="mb-0">Person Name</h4>
                                 <p class="m-0">Profession</p>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="testimonial-content">
                             <div class="d-flex">
@@ -1343,7 +837,9 @@
                                 <i class="fas fa-star text-primary"></i>
                                 <i class="fas fa-star text-primary"></i>
                             </div>
-                            <p class="fs-5 m-0 pt-3">Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+                            <p class="fs-5 m-0 pt-3">Codevo's SEO strategies have significantly improved our search engine rankings.
+                                 Their team's dedication to understanding our market and 
+                                tailoring their approach has led to increased traffic and higher conversion rates. We highly recommend their services.</p>
                         </div>
                     </div>
                     <div class="testimonial-item rounded bg-light">
@@ -1352,10 +848,10 @@
                             <div class="position-absolute" style="top: 15px; right: 20px;">
                                 <i class="fa fa-quote-right fa-2x"></i>
                             </div>
-                            <div class="ps-3 my-auto">
+                            <!-- <div class="ps-3 my-auto">
                                 <h4 class="mb-0">Person Name</h4>
                                 <p class="m-0">Profession</p>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="testimonial-content">
                             <div class="d-flex">
@@ -1365,7 +861,9 @@
                                 <i class="fas fa-star text-primary"></i>
                                 <i class="fas fa-star text-primary"></i>
                             </div>
-                            <p class="fs-5 m-0 pt-3">Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+                            <p class="fs-5 m-0 pt-3">Working with Codevo has been a game-changer for our business. Their team is knowledgeable, 
+                                responsive, and truly understands our needs. 
+                                The web development and SEO services they provided have significantly boosted our online presence and engagement</p>
                         </div>
                     </div>
                     <div class="testimonial-item rounded bg-light">
@@ -1374,10 +872,10 @@
                             <div class="position-absolute" style="top: 15px; right: 20px;">
                                 <i class="fa fa-quote-right fa-2x"></i>
                             </div>
-                            <div class="ps-3 my-auto">
+                            <!-- <div class="ps-3 my-auto">
                                 <h4 class="mb-0">Person Name</h4>
                                 <p class="m-0">Profession</p>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="testimonial-content">
                             <div class="d-flex">
@@ -1387,8 +885,10 @@
                                 <i class="fas fa-star text-primary"></i>
                                 <i class="fas fa-star text-primary"></i>
                             </div>
-                            <p class="fs-5 m-0 pt-3">Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
-                        </div>
+                            <p class="fs-5 m-0 pt-3">Codevo's app development team delivered a high-quality, 
+                                user-friendly app that has been instrumental in our growth. 
+                                Their innovative approach and attention to detail set them apart. We highly recommend their services.</p>
+                       </div>
                     </div>
                 </div>
             </div>
@@ -1400,55 +900,67 @@
         <div class="container-fluid blog py-6">
             <div class="container">
                 <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
-                    <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Our Blog</small>
-                    <h1 class="display-5 mb-5">Be First Who Read News</h1>
+                    <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Join with Us</small>
+                    <h1 class="display-5 mb-5">Why Choose Us?</h1>
                 </div>
                 <div class="row gx-4 justify-content-center">
-                    <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s">
+                    <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
                         <div class="blog-item">
                             <div class="overflow-hidden rounded">
                                 <img src="img/blog-1.jpg" class="img-fluid w-100" alt="">
                             </div>
-                            <div class="blog-content mx-4 d-flex rounded bg-light">
-                                <div class="text-dark bg-primary rounded-start">
+                            <div class="blog-content mx-4 d-flex rounded bg-light row">
+                                <div class="text-dark bg-primary rounded-top rounded-bottom">
                                     <div class="h-100 p-3 d-flex flex-column justify-content-center text-center">
-                                        <p class="fw-bold mb-0">16</p>
-                                        <p class="fw-bold mb-0">Sep</p>
+                                        <p class="fw-bold mb-0">Expertise</p>
                                     </div>
                                 </div>
-                                <a href="#" class="h5 lh-base my-auto h-100 p-3">How to get more innovative in coding</a>
+                                <div class="fs-6 my-auto p-3">Our team comprises industry-leading professionals with extensive experience in their respective fields.</div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.3s">
+                    <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.3s">
                         <div class="blog-item">
                             <div class="overflow-hidden rounded">
                                 <img src="img/blog-2.jpg" class="img-fluid w-100" alt="">
                             </div>
-                            <div class="blog-content mx-4 d-flex rounded bg-light">
-                                <div class="text-dark bg-primary rounded-start">
+                            <div class="blog-content mx-4 d-flex rounded bg-light row">
+                                <div class="text-dark bg-primary rounded-top rounded-bottom">
                                     <div class="h-100 p-3 d-flex flex-column justify-content-center text-center">
-                                        <p class="fw-bold mb-0">16</p>
-                                        <p class="fw-bold mb-0">Sep</p>
+                                        <p class="fw-bold mb-0">Innovation</p>
                                     </div>
                                 </div>
-                                <a href="#" class="h5 lh-base my-auto h-100 p-3">How to get more innovative in coding</a>
+                                <div class="fs-6 my-auto p-3">We stay ahead of the curve by embracing the latest technologies and methodologies.</div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.5s">
+                    <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.5s">
                         <div class="blog-item">
                             <div class="overflow-hidden rounded">
                                 <img src="img/blog-3.jpg" class="img-fluid w-100" alt="">
                             </div>
-                            <div class="blog-content mx-4 d-flex rounded bg-light">
-                                <div class="text-dark bg-primary rounded-start">
+                            <div class="blog-content mx-4 d-flex rounded bg-light row">
+                                <div class="text-dark bg-primary rounded-top rounded-bottom">
                                     <div class="h-100 p-3 d-flex flex-column justify-content-center text-center">
-                                        <p class="fw-bold mb-0">16</p>
-                                        <p class="fw-bold mb-0">Sep</p>
+                                        <p class="fw-bold mb-0">Customer-Centric</p>
                                     </div>
                                 </div>
-                                <a href="#" class="h5 lh-base my-auto h-100 p-3">How to get more innovative in coding</a>
+                                <div class="fs-6 my-auto p-3">Your success is our priority. We are committed to providing solutions that are not only effective but also aligned with your business objectives.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.7s">
+                        <div class="blog-item">
+                            <div class="overflow-hidden rounded">
+                                <img src="img/blog-4.jpg" class="img-fluid w-100" alt="">
+                            </div>
+                            <div class="blog-content mx-4 d-flex rounded bg-light row">
+                                <div class="text-dark bg-primary rounded-top rounded-bottom">
+                                    <div class="h-100 p-3 d-flex flex-column justify-content-center text-center">
+                                        <p class="fw-bold mb-0">Quality Assurance</p>
+                                    </div>
+                                </div>
+                                <div class="fs-6 my-auto p-3">We adhere to the highest standards of quality in everything we do, ensuring that our deliverables are flawless and impactful.</div>
                             </div>
                         </div>
                     </div>
@@ -1458,14 +970,19 @@
         <!-- Blog End -->
 
 
-        <!-- Footer Start -->
-        <div class="container-fluid footer py-6 my-6 mb-0 bg-light wow bounceInUp" data-wow-delay="0.1s">
+
+   <!-- Footer Start -->
+        <div class="container-fluid footer py-6 my-6 mb-4 bg-light wow bounceInUp" data-wow-delay="0.1s">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
+                <div class="row gx-lg-4">
+                    <div class="col-lg-4 col-md-12">
                         <div class="footer-item">
-                            <h1 class="text-primary">Cod<span class="text-dark">Evo</span></h1>
-                            <p class="lh-lg mb-4">There cursus massa at urnaaculis estieSed aliquamellus vitae ultrs condmentum leo massamollis its estiegittis miristum.</p>
+                            <a href="index.html" class="navbar-brand nav-link">
+                                <img src="img/logo.png" alt="Logo">                    
+                                <!-- <h1 class="text-primary fw-bold mb-0">Cod<span class="text-dark">Evo</span> </h1> -->
+                            </a>
+                            <!-- <h1 class="text-primary">Cod<span class="text-dark">Evo</span></h1> -->
+                            <p class="lh-lg mb-4">Shaping the Future with Code and Creativity</p>
                             <div class="footer-icon d-flex">
                                 <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href=""><i class="fab fa-twitter"></i></a>
@@ -1474,50 +991,25 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-4 col-md-12">
                         <div class="footer-item">
                             <h4 class="mb-4">Special Facilities</h4>
                             <div class="d-flex flex-column align-items-start">
-                                <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Clients on Top Priority</a>
-                                <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Quality Work</a>
-                                <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Timely Delivery</a>
-                                <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Experienced Teams</a>
+                                <p class="text-body mb-3"><i class="fa fa-check text-primary me-2"></i>Clients on Top Priority</p>
+                                <p class="text-body mb-3"><i class="fa fa-check text-primary me-2"></i>Quality Work</p>
+                                <p class="text-body mb-3"><i class="fa fa-check text-primary me-2"></i>Timely Delivery</p>
+                                <p class="text-body mb-3"><i class="fa fa-check text-primary me-2"></i>Experienced Teams</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-4 col-md-12">
                         <div class="footer-item">
                             <h4 class="mb-4">Contact Us</h4>
                             <div class="d-flex flex-column align-items-start">
-                                <p><i class="fa fa-map-marker-alt text-primary me-2"></i> 123 Street, New York, USA</p>
-                                <p><i class="fa fa-phone-alt text-primary me-2"></i> (+012) 3456 7890 123</p>
-                                <p><i class="fas fa-envelope text-primary me-2"></i> info@example.com</p>
-                                <p><i class="fa fa-clock text-primary me-2"></i> 26/7 Hours Service</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-item">
-                            <h4 class="mb-4">Social Gallery</h4>
-                            <div class="row g-2">
-                                <div class="col-4">
-                                     <img src="img/menu-01.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
-                                </div>
-                                <div class="col-4">
-                                     <img src="img/menu-02.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
-                                </div>
-                                <div class="col-4">
-                                     <img src="img/menu-03.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
-                                </div>
-                                <div class="col-4">
-                                     <img src="img/menu-04.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
-                                </div>
-                                <div class="col-4">
-                                     <img src="img/menu-05.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
-                                </div>
-                                <div class="col-4">
-                                     <img src="img/menu-06.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
-                                </div>
+                                <p><i class="fa fa-map-marker-alt text-primary me-2"></i> F-6/1, Islamabad, Pakistan</p>
+                                <p><i class="fa fa-phone-alt text-primary me-2"></i> (+92) 331 5777057</p>
+                                <p><i class="fas fa-envelope text-primary me-2"></i> nightd3vil971@gmail.com</p>
+                                <p><i class="fa fa-clock text-primary me-2"></i> 24/7 Hours Service</p>
                             </div>
                         </div>
                     </div>
@@ -1532,7 +1024,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Codevo</a>, All right reEvoed.</span>
+                        <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Codevo</a>, All right reserved.</span>
                     </div>
                     <div class="col-md-6 my-auto text-center text-md-end text-white">
                         <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->

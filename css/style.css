@@ -368,7 +368,7 @@ h4, h5, h6, .h4, .h5, .h6 {
 }
 
 .blog-item img {
-    transition: 0.5s;
+    transition: 0.4s;
 }
 
 .blog-item:hover img {
@@ -377,7 +377,7 @@ h4, h5, h6, .h4, .h5, .h6 {
 
 .blog-item .blog-content {
     position: relative;
-    transform: translateY(-50%);
+    transform: translateY(-30%);
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
 }
 
@@ -455,14 +455,38 @@ h4, h5, h6, .h4, .h5, .h6 {
 
 
 /*** Contact start ***/
+/* .contact-form {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+} */
 .contact-form {
+    background: #0000007b;
+    width: 100%;
+    padding: 10%;
+    border-radius: 15px;
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
 }
+.contact-form h3 {
+    margin-bottom: 15px;
+    text-align: center;
+    color: #333;
+}
+.contact-form .form-control {
+    border-radius: 1rem;
+}
 
+
+.contact-form .form-group {
+    margin-bottom: 1.5rem;
+}
 /*** Contact End ***/
 
 
 /*** Footer Start ***/
+.footer {
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 100%;
+}
 .footer .footer-item a.text-body:hover {
     color: var(--bs-primary) !important;
 }
